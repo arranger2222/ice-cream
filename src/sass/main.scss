@@ -2,6 +2,13 @@
  * Главный файл стилей.
  * Все паршалы подключаются сюда.
  */
+// ================= COMMON STYLES ========================
 
-// Стили для файла с примером HTML-фрагмента
-@import './example';
+@import '../sass/utils/reset.scss';
+@import '../sass/utils/variables';
+@import '../sass/utils/container';
+@import '../sass/utils/hidden';
+@import '../sass/utils/breakpoints';
+@import '../sass/utils/mixins/respond';
+
+// ===================== LAYOUTS =============================
