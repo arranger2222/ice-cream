@@ -2,13 +2,12 @@
   outline: 1px solid tomato;
   padding-top: 100px;
   width: 100%;
-  padding-left: 10px;
-  padding-right: 10px;
-  margin-left: auto;
-  margin-right: auto;
-  @media screen and (min-width: 480px) {
-    width: 300px;
-  }
+  margin: 0 auto;
+  padding: 0 20px;
+  max-width: 320px;
+  //  @media screen and (min-width: 480px) {
+  //    width: 300px;
+  // }
   @media screen and (min-width: 768px) {
     width: 720px;
   }
@@ -18,3 +17,23 @@
     padding-right: 15px;
   }
 }
+
+// .container {
+//   width: 100%;
+//   margin: 0 auto;
+//   padding: 0 20px;
+
+//   @media screen and(min-width:320px) {
+//     max-width: 320px;
+//   }
+
+//   @media screen and(min-width:768px) {
+//     max-width: 768px;
+//     padding: 0 35px;
+//   }
+
+//   @media screen and(min-width:1280px) {
+//     max-width: 1280px;
+//     padding: 0 120px;
+//   }
+// }
