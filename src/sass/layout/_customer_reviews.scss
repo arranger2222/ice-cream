@@ -4,6 +4,7 @@
   font-size: 12px;
   line-height: calc(30.6 / 12);
   color: #000;
+
   text-align: center;
   z-index: 10;
   &__container {
@@ -66,15 +67,53 @@
   );
 }
 
+.about-customer {
+  display: inline-block;
+  font-size: 14px;
+  font-weight: 500;
+  line-height: calc(26.04 / 14);
+  text-align: center;
+  position: relative;
+  margin-bottom: 30px;
+}
 .about-customer::before {
-  content: '';
+  content: '...';
+  display: flex;
+  justify-content: center;
+
+  color: #c7133e;
+  letter-spacing: 0.3em;
+  font-size: 2rem;
   position: absolute;
-  background-image: url(/sprites/dots.svg);
-  background-repeat: no-repeat;
-  background-position: center;
-  background-size: contain;
-  width: 25px;
-  height: 4px;
-  top: 535px;
-  left: 45%;
+  top: -55px;
+  left: 50%;
+  transform: translate(-50%);
+//   outline: 1px solid red;
+}
+
+.pagination {
+  display: flex;
+
+  &__link {
+    display: block;
+    width: 12px;
+    height: 12px;
+    border-radius: 50%;
+    border: 1px #212121;
+    background-color: #d9d9d9;
+  }
+
+  &__link--active {
+    background-image: url(/sprites/home.svg);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: contain;
+
+    border-radius: 0;
+    background-color: #fff;
+  }
+
+  &__item:not(:last-child) {
+    margin-right: 18px;
+  }
 }
