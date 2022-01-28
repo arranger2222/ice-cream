@@ -78,6 +78,12 @@
 }
 
 @media screen and (max-width: 479px) {
+  .about__container {
+    max-width: 300px;
+  }
+}
+
+@media screen and (max-width: 767px) {
   .about {
     background-image: url(../images/about/bg/section-bg-mobile.png);
     background-repeat: no-repeat;
@@ -90,12 +96,6 @@
       background-image: url(../images/about/bg/section-bg-mobile@2x.png);
     }
   }
-  .about__container {
-    max-width: 300px;
-  }
-}
-
-@media screen and (max-width: 767px) {
 }
 
 @media screen and (min-width: 768px) {
