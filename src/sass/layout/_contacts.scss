@@ -1,12 +1,19 @@
 * {
   outline: 1px solid tomato;
 }
+.contacts__list {
+  margin-bottom: 54px;
+}
 .contacts__item {
   padding: 43px 20px;
   background-color: #ffffff;
   border-radius: 24px;
   box-shadow: 0px 8px 30px 0px rgba(212, 20, 67, 0.1);
+  &:not(:last-child) {
+    margin-bottom: 20px;
+  }
 }
+
 .contacts__element {
   width: 80px;
   margin-bottom: 25px;
@@ -23,6 +30,10 @@
   text-transform: uppercase;
 
   border-radius: 4px;
+  &--bg {
+    background-color: $green-color;
+    width: 130px;
+  }
 }
 
 .contacts__title {
@@ -52,9 +63,43 @@
   }
 }
 
+// Контент с рабочими днями
+.contacts__worktime-list {
+  position: relative;
+  margin-bottom: 50px;
+  &::after {
+    content: '';
+    position: absolute;
+    left: 0;
+    bottom: -25px;
+    width: 100%;
+    border: 1px solid #e1e1e1;
+  }
+}
+.contacts__worktime-item:not(:last-child) {
+  margin-bottom: 10px;
+}
+
 .contacts__workday {
   font-family: DM Sans;
   font-size: 12px;
   font-weight: 500;
   line-height: 1.86;
+}
+.contacts__worktime {
+  font-family: DM Sans;
+  font-size: 12px;
+  font-weight: 500;
+  line-height: 1.86;
+  color: $secondary-font-color;
+}
+
+// Контент с обратной связью
+
+.connect-box__link {
+  font-family: DM Sans;
+  font-size: 12px;
+  font-weight: 500;
+  line-height: 1.5;
+  color: $dark-font-color;
 }
