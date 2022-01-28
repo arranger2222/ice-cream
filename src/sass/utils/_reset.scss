@@ -1,5 +1,5 @@
 body {
-  font-family: var(--main-font);
+  font-family: $content-font;
 }
 
 h1,
@@ -14,6 +14,7 @@ ul,
 ol {
   margin: 0;
   padding: 0;
+  list-style: none;
 }
 
 img {

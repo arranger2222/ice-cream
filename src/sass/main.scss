@@ -4,8 +4,8 @@
  */
 // ================= COMMON STYLES ========================
 
-@import '../sass/utils/reset.scss';
 @import '../sass/utils/variables';
+@import '../sass/utils/reset';
 @import '../sass/utils/container';
 @import '../sass/utils/visually-hidden';
 @import '../sass/utils/breakpoints';
@@ -13,4 +13,4 @@
 
 // ===================== LAYOUTS =============================
 
-@import '../sass/layout/customer_reviews.scss';
+@import '../sass/layout/customer_reviews';
