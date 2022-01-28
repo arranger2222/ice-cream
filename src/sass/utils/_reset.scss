@@ -14,6 +14,7 @@ ul,
 ol {
   margin: 0;
   padding: 0;
+  list-style: none;
 }
 
 img {
@@ -22,12 +23,17 @@ img {
   height: auto;
 }
 
-a {
-  text-decoration: none;
+
+.link,
+a {text-decoration: none;}
+
+
+.list {
+  list-style: none;
 }
 
-li {
-  list-style: none;
+img {
+  display: block;
 }
 
 button {
