@@ -7,8 +7,10 @@
 @import '../sass/utils/reset.scss';
 @import '../sass/utils/variables';
 @import '../sass/utils/container';
-@import '../sass/utils/hidden';
+@import '../sass/utils/visually-hidden';
 @import '../sass/utils/breakpoints';
 @import '../sass/utils/mixins/respond';
 
 // ===================== LAYOUTS =============================
+
+@import '../sass/layout/customer_reviews.scss';
