@@ -1,0 +1,24 @@
+.hero {
+  background-color: $main-brand-color;
+}
+.hero__title {
+  width: 218px;
+  font-family: $decorative-font;
+  font-weight: 400;
+  font-size: 26px;
+  line-height: 1.14;
+  letter-spacing: 0.04em;
+  text-transform: uppercase;
+  color: #ffffff;
+  z-index: 2;
+
+  @media screen and(min-width: 768px) {
+    font-size: 22px;
+    width: 162px;
+  }
+
+  @media screen and(min-width: 1200px) {
+    font-size: 38px;
+    width: 277px;
+  }
+}
