@@ -1,0 +1,36 @@
+.gallery {
+  background-image: linear-gradient(
+    to bottom,
+       
+    $secondary-brand-color 40%,
+    #ffffff 60%
+  ); 
+}
+//$secondary-brand-color 17%
+//.gallery__box {}
+
+.gallery__photo{
+ // position: absolute;
+  left: 0;
+  bottom: 0;
+  padding: 0;
+  min-width: 320px;
+  // height: 100%;
+  min-height: 122px;
+  background-image: url('/images/gallery/gallery_mb_335@1x.png');
+  background-position: center;
+  background-size: contain;
+  background-repeat: no-repeat;
+
+  //transform: translateY(50%);
+  @media screen and (min-width: 768px) {
+    min-width: 768px;
+    height: 430px;
+    background-image: url('/images/gallery/gallery_tb_335@1x.png');
+  }
+
+  @media screen and (min-width: 1200px) {
+    min-width: 1200px;
+    background-image: url('/images/gallery/gallery_ds_335@1x.png');
+  }
+}
