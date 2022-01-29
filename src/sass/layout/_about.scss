@@ -136,9 +136,11 @@
 }
 
 @media screen and (min-width: 1280px) {
-  .about-advantages {
+  .about {
     padding-top: 125px;
     padding-bottom: 39px;
+  }
+  .about-advantages {
     background-image: url(../images/about/bg/section-bg.png);
     background-repeat: no-repeat;
     background-position: center;
