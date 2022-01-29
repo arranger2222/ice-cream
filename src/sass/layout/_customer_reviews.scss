@@ -21,17 +21,6 @@
     flex-direction: column;
     align-items: center;
     padding-top: 80px;
-
-    @media screen and (min-width: 768px) {
-      max-width: 620px;
-    }
-
-    @media screen and (min-width: 768px) {
-      max-width: 925px;
-    }
-    @media screen and (min-width: 1280px) {
-      max-width: 1080px;
-    }
   }
 }
 
@@ -40,9 +29,13 @@
   @media screen and (min-width: 768px) {
     margin-bottom: 20px;
   }
+  @media screen and (min-width: 1280px) {
+    margin-bottom: 15px;
+  }
 }
 
 .review-wrapper {
+  // outline: #c7133e 1px solid;
   position: relative;
   display: flex;
   flex-direction: column;
@@ -60,6 +53,9 @@
   }
   @media screen and (min-width: 1280px) {
     max-width: 926px;
+    padding: 47px 80px 34px 80px;
+    min-height: 138px;
+    margin-bottom: 34px;
   }
 }
 
@@ -97,7 +93,7 @@
     #e1e1e1 29px,
     #e1e1e1 30px
   );
-  // outline: 1px solid red;
+  // outline: 1px solid blue;
   @media screen and (min-width: 768px) {
     width: 524px;
   }
@@ -107,13 +103,15 @@
       to bottom,
       transparent,
       transparent 27px,
-      #e1e1e1 29px,
-      #e1e1e1 3px
+      #e1e1e1 28px,
+      #e1e1e1 px
     );
   }
 }
 
 .review-text {
+  margin: 0 auto;
+  // outline: 1px solid green;
   width: 157px;
   @media screen and (min-width: 768px) {
     width: 460px;
@@ -138,18 +136,19 @@
 
 .about-customer::before {
   content: '...';
-  display: flex;
-  justify-content: center;
   color: #c7133e;
   letter-spacing: 0.3em;
   font-size: 2rem;
   position: absolute;
   top: -55px;
-  left: 50%;
+  left: 53%;
   transform: translate(-50%);
   //   outline: 1px solid red;
   @media screen and (min-width: 768px) {
     top: -50px;
+    @media screen and (min-width: 1280px) {
+      top: -55px;
+    }
   }
 }
 
