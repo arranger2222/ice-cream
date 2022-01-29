@@ -30,7 +30,7 @@
   letter-spacing: 0.04em;
   text-transform: uppercase;
   color: #ffffff;
-  // z-index: 2;
+  z-index: 2;
 
   @media screen and(min-width: 768px) {
     font-size: 22px;
@@ -63,7 +63,7 @@
   position: absolute;
   bottom: 59px;
   left: 154px;
-  // z-index: 2;
+  z-index: 2;
   font-size: 8px;
   line-height: 1.5;
   color: #ffffff;
@@ -132,5 +132,26 @@
 
   @media screen and(min-width: 1200px) {
     left: 594px;
+  }
+}
+.milk {
+  position: absolute;
+  bottom: 28px;
+  left: 34px;
+  z-index: 2;
+
+  @media screen and(min-width: 1200px) {
+    left: 77px;
+    bottom: 45px;
+  }
+}
+.girl {
+  position: absolute;
+  bottom: 0px;
+  right: 34px;
+  z-index: 2;
+
+  @media screen and(min-width: 1200px) {
+    right: 109px;
   }
 }
