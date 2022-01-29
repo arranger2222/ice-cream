@@ -5,7 +5,7 @@
   display: inline-flex;
   margin: 0;
   padding: 0;
-  z-index: 2;
+  // z-index: 1002;
   background-color: transparent;
   &.is-open {
     position: fixed;
@@ -14,14 +14,14 @@
     display: none;
   }
 }
-.menu-button .mobile__close {
-  display: none;
-}
+// .menu-button .mobile__close {
+//   display: none;
+// }
 .menu-button.is-open .mobile__close {
   display: block;
   position: absolute;
   top: 25px;
-  right: 28px;
+  right: 20px;
 }
 .menu-button.is-open .mobile__burger {
   display: none;

@@ -30,13 +30,13 @@
         </ul>
     </div>
 <div class="buttons">
-    <button type="button" class="burger-btn" aria-controls="menu-container" data-menu-button>
+    <button type="button" class="burger-btn" aria-controls="buttons" data-menu-button>
     <svg class="mobile__icon" width="20" height="12" aria-label="Переключатель мобильного меню">
             <use class="mobile__burger" href="img-hero/symbol-defs.svg#icon-Burger"></use>
         </svg>
-        <svg class="mobile__icon" width="20" height="12" aria-label="Переключатель мобильного меню">
+        <!-- <svg class="mobile__icon" width="20" height="12" aria-label="Переключатель мобильного меню">
             <use class="mobile__close" href="img-hero/symbol-defs.svg#icon-close"></use>
-        </svg>
+        </svg> -->
     </button>
 
 <button type="button" class="header-btn btn">Buy now
@@ -49,9 +49,9 @@
 <div class="menu-container" id="menu-container" data-menu>
     <button type="button" class="menu-button" aria-expanded="false" aria-controls="menu-container" data-menu-button>
     
-        <svg class="mobile__icon" width="20" height="12" aria-label="Переключатель мобильного меню">
+        <!-- <svg class="mobile__icon" width="20" height="12" aria-label="Переключатель мобильного меню">
             <use class="mobile__burger" href="img-hero/symbol-defs.svg#icon-Burger"></use>
-        </svg>
+        </svg> -->
         <svg class="mobile__icon" width="20" height="12" aria-label="Переключатель мобильного меню">
             <use class="mobile__close" href="img-hero/symbol-defs.svg#icon-close"></use>
         </svg>
@@ -96,13 +96,13 @@
 <section class="hero">
  <div class="container">
 
-    <picture>
+    <picture class="ellipse">
         <source media='(min-width: 1200px)' srcset="img-hero/ellipse-desktop.png 1x, img-hero/ellipse-desktop@2x.png 2x">
         <source media='(min-width: 768px)' srcset="img-hero/ellipse-tab.png 1x, img-hero/ellipse-tab@2x.png 2x">
         <source media='(min-width: 480px)' srcset="img-hero/ellipse-mob.png 1x, img-hero/ellipse-mob@2x.png 2x">
-        <img src="img-hero/ellipse-desktop.png" alt="Круг">
+        <img  src="img-hero/ellipse-desktop.png" alt="Круг">
     </picture>
-    <picture>
+    <picture class="ice-cream>
         <source media='(min-width: 1200px)' srcset="img-hero/ice-desktop.png 1x, img-hero/ice-desktop@2x.png 2x">
         <source media='(min-width: 768px)' srcset="img-hero/ice-tab.png 1x, img-hero/ice-tab@2x.png 2x">
         <source media='(min-width: 480px)' srcset="img-hero/ice-mob.png 1x, img-hero/ice-mob@2x.png 2x">
@@ -119,23 +119,15 @@
         <img src="img-hero/milk-desktop.png" alt="Молоко">
     </picture>
 
-     <h1 class="hero__title">ice cream made with <span class="hero__title--colored">passion</span></h1>
-     <ul class="hero__btn-list">
-         <li class="hero__btn-item">
-<a class="button--pink btn" href="">Products</a>
-         </li>
-    <li class="hero__btn-item">
-<a class="button--white btn" href="">How it’s made?</a>
-         </li>
-     </ul>
-
-<!-- <p class="hero-subtitle">
+<p class="hero-subtitle">
     Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et
-</p> -->
+</p>
+
+
 <a class="hero__arrow" href="">
-<svg height="" width="">
-    <use href=""></use>
-</svg>
+    <svg height="" width="">
+        <use href=""></use>
+    </svg>
 </a>
 <ul class="data">
     <li class="data__item">
@@ -155,6 +147,22 @@
         <span class="data__circe"></span>
 
     </li>
+<h1 class="hero__title">ice cream made with <span class="hero__title--colored">passion</span></h1>
+<ul class="hero__btn-list">
+    <li class="hero__btn-item">
+        <a class="button--pink btn" href="">Products</a>
+    </li>
+    <li class="hero__btn-item">
+        <a class="button--white btn" href="">How it’s made?</a>
+    </li>
+</ul>
+     
+     
+
+
+
+
+    </ul>
  </div>
 
 </section>

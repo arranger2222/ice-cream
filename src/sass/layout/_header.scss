@@ -37,18 +37,18 @@
   font-size: 16px;
   font-weight: 1.31;
   font-weight: 700;
-  // color: var(--color-white);
+  color: #ffff;
   // transition: color 250ms var(--timing-function);
 
-  //   &:hover,
-  //   &:focus {
-  //     color: var(--color-pink-accent);
-  //   }
+  &:hover,
+  &:focus {
+    color: $main-font-color;
+  }
 }
 
-// .active-navigation-link {
-//   // color: var(--color-pink-accent);
-// }
+.active-navigation-link {
+  color: $main-font-color;
+}
 
 .navigation {
   display: flex;
