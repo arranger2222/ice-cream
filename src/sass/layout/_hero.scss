@@ -30,6 +30,7 @@
   letter-spacing: 0.04em;
   text-transform: uppercase;
   color: #ffffff;
+  position: relative;
   z-index: 2;
 
   @media screen and(min-width: 768px) {
@@ -59,15 +60,18 @@
     font-size: 58px;
   }
 }
-.hero-subtitle {
-  position: absolute;
-  bottom: 59px;
-  left: 154px;
-  z-index: 2;
-  font-size: 8px;
-  line-height: 1.5;
-  color: #ffffff;
-  width: 114px;
+.hero__subtitle {
+  display: none;
+  @media screen and(min-width: 768px) {
+    position: absolute;
+    bottom: 59px;
+    left: 154px;
+    z-index: 2;
+    font-size: 8px;
+    line-height: 1.5;
+    color: #ffffff;
+    width: 114px;
+  }
 
   @media screen and(min-width: 1200px) {
     left: 295px;
