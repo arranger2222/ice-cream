@@ -99,6 +99,7 @@
   }
   @media screen and (min-width: 1280px) {
     width: 813px;
+
     background-image: repeating-linear-gradient(
       to bottom,
       transparent,
@@ -106,7 +107,7 @@
       #e1e1e1 29px,
       #e1e1e1 17px
     );
-  }
+}
 }
 
 .review-text {
@@ -151,11 +152,18 @@
     }
   }
 }
+// ===================== SLIDER STYLES =========================
 
-.pagination {
+.slick-dots {
   display: flex;
+  justify-content: center;
 
-  &__link {
+  & li:not(:last-child) {
+    margin-right: 18px;
+  }
+
+  & button {
+    font-size: 0;
     display: block;
     width: 12px;
     height: 12px;
@@ -163,18 +171,13 @@
     border: 1px #212121;
     background-color: #d9d9d9;
   }
+}
 
-  &__link--active {
-    background-image: url(/sprites/home.svg);
-    background-repeat: no-repeat;
-    background-position: center;
-    background-size: contain;
-
-    border-radius: 0;
-    background-color: #fff;
-  }
-
-  &__item:not(:last-child) {
-    margin-right: 18px;
-  }
+.slick-active button {
+  border-radius: 0;
+  background-color: #fff;
+  background-image: url(/sprites/home.svg);
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: contain;
 }
