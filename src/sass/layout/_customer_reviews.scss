@@ -107,7 +107,7 @@
       #e1e1e1 29px,
       #e1e1e1 17px
     );
-}
+  }
 }
 
 .review-text {
@@ -180,4 +180,8 @@
   background-repeat: no-repeat;
   background-position: center;
   background-size: contain;
+}
+
+.slick-slide {
+  height: auto;
 }
