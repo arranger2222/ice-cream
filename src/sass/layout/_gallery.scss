@@ -1,6 +1,12 @@
 .gallery {
-  background-color: $secondary-brand-color;
+  background-image: linear-gradient(
+    to bottom,
+       
+    $secondary-brand-color 40%,
+    #ffffff 60%
+  ); 
 }
+//$secondary-brand-color 17%
 //.gallery__box {}
 
 .gallery__photo{
@@ -16,7 +22,7 @@
   background-size: contain;
   background-repeat: no-repeat;
 
-  transform: translateY(50%);
+  //transform: translateY(50%);
   @media screen and (min-width: 768px) {
     min-width: 768px;
     height: 430px;
