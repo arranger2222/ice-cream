@@ -14,10 +14,15 @@
 
 // ===================== LAYOUTS =============================
 
+@import '../sass/layout/header';
+@import '../sass/layout/hero';
+@import '../sass/components/header-btn';
+@import '../sass/components/menu';
 @import '../sass/layout/products';
-@import './layout/about';
-@import './layout/advantages';
+@import '../layout/about';
+@import '../layout/advantages';
 @import '../sass/layout/gallery';
 @import '../sass/layout/customer_reviews';
 @import '../sass/layout/contacts';
 @import '../sass/layout/footer';
+

@@ -30,6 +30,7 @@ a {text-decoration: none;}
 
 .list {
   list-style: none;
+  text-decoration: none;
 }
 
 img {
@@ -40,4 +41,13 @@ button {
   cursor: pointer;
   border: none;
   background: none;
+}
+
+a {
+  list-style: none;
+  text-decoration: none;
+}
+
+li {
+  list-style-type: none;
 }
