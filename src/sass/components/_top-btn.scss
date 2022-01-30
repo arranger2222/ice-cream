@@ -4,10 +4,11 @@
   right: 20px;
 }
 #back-top a {
+  font-size: 14px;
   width: 80px;
   display: block;
   text-align: center;
-  font-family: $decorative-font;
+  font-family: $content-font;
   text-transform: uppercase;
   text-decoration: none;
   color: $main-font-color;
@@ -22,8 +23,8 @@
 }
 /* arrow icon (span tag) */
 #back-top span {
-  width: 80px;
-  height: 80px;
+  width: 70px;
+  height: 70px;
   display: block;
   margin-bottom: 7px;
   background-color: $main-brand-color;
