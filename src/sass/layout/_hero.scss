@@ -8,7 +8,6 @@
   padding-top: 137px;
   padding-bottom: 160px;
   position: relative;
-  overflow: clip;
 
   @media screen and(min-width: 768px) {
     height: 312px;
@@ -56,7 +55,7 @@
     font-size: 34px;
     line-height: 0.9;
   }
-  @media screen and(min-width: 1200px) {
+  @media screen and(min-width: 1280px) {
     font-size: 58px;
   }
 }
@@ -64,6 +63,7 @@
   display: none;
   @media screen and(min-width: 768px) {
     position: absolute;
+    display: block;
     bottom: 59px;
     left: 154px;
     z-index: 2;
@@ -73,7 +73,7 @@
     width: 114px;
   }
 
-  @media screen and(min-width: 1200px) {
+  @media screen and(min-width: 1280px) {
     left: 295px;
     bottom: 102px;
     font-size: 14px;
@@ -86,7 +86,7 @@
   display: flex;
   margin-top: 20px;
 
-  @media screen and(min-width: 1200px) {
+  @media screen and(min-width: 1280px) {
     margin-top: 25px;
   }
 }
@@ -95,7 +95,7 @@
   &:not(:last-child) {
     margin-right: 8px;
 
-    @media screen and(min-width: 1200px) {
+    @media screen and(min-width: 1280px) {
       margin-right: 15px;
     }
   }
@@ -110,14 +110,13 @@
   border-radius: 50%;
   width: 324px;
   height: 324px;
-  background-color: var(--color-pink-dark);
 
   @media screen and(min-width: 768px) {
     left: 307px;
     bottom: 46px;
   }
 
-  @media screen and(min-width: 1200px) {
+  @media screen and(min-width: 1280px) {
     width: 538px;
     height: 538px;
     left: 475px;
@@ -134,7 +133,7 @@
     left: 378px;
   }
 
-  @media screen and(min-width: 1200px) {
+  @media screen and(min-width: 1280px) {
     left: 594px;
   }
 }
@@ -148,7 +147,7 @@
     z-index: 2;
   }
 
-  @media screen and(min-width: 1200px) {
+  @media screen and(min-width: 1280px) {
     left: 77px;
     bottom: 45px;
   }
@@ -164,30 +163,21 @@
     z-index: 2;
   }
 
-  @media screen and(min-width: 1200px) {
+  @media screen and(min-width: 1280px) {
     right: 109px;
   }
 }
 
 .data {
-  position: absolute;
-  width: 1px;
-  height: 1px;
-  margin: -1px;
-  border: 0;
-  padding: 0;
-
-  white-space: nowrap;
-  clip-path: inset(100%);
-  clip: rect(0 0 0 0);
-  overflow: hidden;
+  display: none;
   @media screen and(min-width: 768px) {
+    display: block;
     position: absolute;
     top: 7px;
     right: 34px;
   }
 
-  @media screen and(min-width: 1200px) {
+  @media screen and(min-width: 1280px) {
     top: 69px;
     right: 115px;
   }
@@ -196,7 +186,7 @@
   position: relative;
   &:not(:last-child) {
     margin-bottom: 13px;
-    @media screen and(min-width: 1200px) {
+    @media screen and(min-width: 1280px) {
       margin-bottom: 15px;
     }
   }
@@ -209,7 +199,7 @@
   top: 2px;
   z-index: 1;
 
-  @media screen and(min-width: 1200px) {
+  @media screen and(min-width: 1280px) {
     right: 18px;
     top: 4px;
   }
@@ -236,8 +226,60 @@
   color: #ffffff;
   margin-left: auto;
 
-  @media screen and(min-width: 1200px) {
+  @media screen and(min-width: 1280px) {
     font-size: 14px;
     line-height: 1.28;
+  }
+}
+.data__circe {
+  display: none;
+  @media screen and(min-width: 768px) {
+    display: block;
+    position: absolute;
+    right: 0;
+    top: 0;
+    border-radius: 50%;
+    width: 16px;
+    height: 16px;
+    background-color: #ffffff;
+    z-index: 0;
+  }
+
+  @media screen and(min-width: 1280px) {
+    width: 30px;
+    height: 30px;
+  }
+}
+
+.hero__arrow {
+  display: none;
+  @media screen and(min-width: 768px) {
+    display: block;
+    position: absolute;
+    bottom: 34px;
+    left: 154px;
+    border-radius: 50%;
+    background-color: #ffffff;
+    z-index: 1;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    fill: $brand-btn-color;
+    width: 18px;
+    height: 18px;
+    transition: fill $main-transition, background-color $main-transition;
+  }
+
+  @media screen and(min-width: 1200px) {
+    left: 295px;
+    bottom: 56px;
+    width: 26px;
+    height: 26px;
+  }
+
+  &:hover,
+  &:focus {
+    background-color: $brand-btn-color;
+    fill: #ffffff;
   }
 }
