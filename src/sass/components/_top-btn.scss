@@ -1,0 +1,45 @@
+#back-top {
+  position: fixed;
+  bottom: 30px;
+  right: 20px;
+}
+#back-top a {
+  width: 80px;
+  display: block;
+  text-align: center;
+  font-family: $decorative-font;
+  text-transform: uppercase;
+  text-decoration: none;
+  color: $main-font-color;
+  opacity: 60%;
+  /* transition */
+  -webkit-transition: 1s;
+  -moz-transition: 1s;
+  transition: 1s;
+}
+#back-top a:hover {
+  color: $main-brand-color;
+}
+/* arrow icon (span tag) */
+#back-top span {
+  width: 80px;
+  height: 80px;
+  display: block;
+  margin-bottom: 7px;
+  background-color: $main-brand-color;
+  background-image: url(http://webmastermix.ru/files/demo/creation-site/raznoe/knopka-vverh/up-arrow.png);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: 50%;
+  /* rounded corners */
+  -webkit-border-radius: 15px;
+  -moz-border-radius: 15px;
+  border-radius: 15px;
+  /* transition */
+  -webkit-transition: 2s;
+  -moz-transition: 2s;
+  transition: 2s linear;
+}
+#back-top a:hover span {
+  background-color: $main-font-color;
+}
