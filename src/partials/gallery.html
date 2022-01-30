@@ -1,5 +1,25 @@
 <section class="gallery " id="gallery">
     <div class="container gallery__box">
-        <div class="gallery__photo"></div>
+        <!--<div class="gallery__photo"></div>-->
+        
+        <picture>
+            <source
+                srcset="./images/gallery/gallery_ds_335@1x.webp 1x, ./images/gallery/gallery_ds_335@2x.webp 2x"
+                media="(min-width: 1200px)" type="image/webp">
+            <source
+                srcset="./images/gallery/gallery_ds_335@1x.png 1x, ./images/gallery/gallery_ds_335@2x.png 2x"
+                media="(min-width: 1200px)">
+            <source srcset="./images/gallery/gallery_tb_335@1x.webp 1x, ./images/gallery/gallery_tb_335@2x.webp 2x"
+                media="(min-width: 768px)" type="image/webp">
+            <source srcset="./images/gallery/gallery_tb_335@1x.png 1x, ./images/gallery/gallery_tb_335@2x.png 2x"
+                media="(min-width: 768px)">
+            <source srcset="./images/gallery/gallery_mb_335@1x.webp 1x, ./images/gallery/gallery_mb_335@2x.webp
+                        2x" media="(min-width: 320px)" type="image/webp">
+            <source srcset="./images/gallery/gallery_mb_335@1x.png 1x, ./images/gallery/gallery_mb_335@2x.png 2x"
+                media="(min-width: 320px)">
+            <img src="./images/gallery/gallery_mb_335@1x.png" alt="gallery" />
+        </picture>
+
+
     </div>
 </section>
