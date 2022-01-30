@@ -16,9 +16,10 @@
 
 .menu {
   display: none;
-  @media screen and(min-width: 1200px) {
+  @media screen and(min-width: 1280px) {
     display: flex;
     align-items: center;
+    z-index: 3;
   }
 }
 
@@ -38,7 +39,8 @@
   font-weight: 1.31;
   font-weight: 700;
   color: #ffff;
-  // transition: color 250ms var(--timing-function);
+  z-index: 10;
+  transition: color $main-transition;
 
   &:hover,
   &:focus {
@@ -61,7 +63,7 @@
   //   display: flex;
   //   margin-right: 84px;
   // }
-  @media screen and (min-width: 1200px) {
+  @media screen and (min-width: 1280px) {
     display: flex;
     margin-right: 110px;
     margin-left: 110px;
@@ -73,7 +75,7 @@
   padding-bottom: 11px;
   padding-left: 21px;
   // width: 100%;
-  @media screen and (min-width: 1200px) {
+  @media screen and (min-width: 1280px) {
     margin-top: 0;
     margin-bottom: 0;
     padding: 0;
