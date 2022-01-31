@@ -27,8 +27,8 @@ VanillaTilt.init(card2s, {
     gyroscopeMaxAngleY:  45,
 });
 
-const gallerys = document.querySelectorAll('.gallery');
-VanillaTilt.init(gallerys, {
+const card3s = document.querySelectorAll('.card3');
+VanillaTilt.init(card3, {
     max: 10,
     glare: true,
 });
