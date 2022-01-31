@@ -8,9 +8,9 @@
   padding-top: 137px;
   padding-bottom: 160px;
   position: relative;
-  @media screen and(max-width: 320px) {
-    overflow-x: hidden;
-  }
+  // @media screen and(max-width: 320px) {
+  overflow-x: hidden;
+  // }
 
   @media screen and(min-width: 768px) {
     height: 312px;
