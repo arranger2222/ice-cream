@@ -1,3 +1,4 @@
+
 .contacts {
   margin-top: 10px;
   padding-top: 86px;
@@ -41,6 +42,7 @@
 }
 .contacts__list {
   margin-bottom: 54px;
+
   @media screen and (min-width: 768px) {
     display: flex;
     flex-wrap: wrap;
@@ -51,6 +53,8 @@
   }
 }
 .contacts__item {
+  margin-left: auto;
+  margin-right: auto;
   width: 220px;
   padding: 43px 20px;
   background-color: #ffffff;
