@@ -2,7 +2,7 @@ const cards = document.querySelectorAll('.card');
 VanillaTilt.init(cards, {
     max: 15,
     glare: true,
-    scale:  2,  // Масштабирование
+    scale:  1.3,  // Масштабирование
     speed:  300,  // Скорость анимации в начале/в конце
     easing:  "cubic-bezier(.03,.98,.52,.99)", 
     gyroscope:  true,  // Нужен ли эффект при наклоне телефона/другого устройства
@@ -16,7 +16,7 @@ const card2s = document.querySelectorAll('.card2');
 VanillaTilt.init(card2s, {
     max: 15,
     glare: true,
-    scale:  1.5,  // Масштабирование
+    scale:  1.2,  // Масштабирование
     speed:  300,  // Скорость анимации в начале/в конце
     easing:  "cubic-bezier(.03,.98,.52,.99)", 
     gyroscope:  true,  // Нужен ли эффект при наклоне телефона/другого устройства
@@ -32,3 +32,4 @@ VanillaTilt.init(gallerys, {
     max: 10,
     glare: true,
 });
+
