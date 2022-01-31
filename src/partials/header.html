@@ -29,8 +29,8 @@
             </li>
         </ul>
     </div>
-<div class="buttons">
-    <button type="button" class="burger-btn" aria-controls="buttons" data-menu-button>
+<div class="buttons ">
+    <button type="button" class=" burger-btn js-open-menu"  data-menu-button>
     <svg class="mobile__icon" width="20" height="12" aria-label="Переключатель мобильного меню">
             <use class="mobile__burger" href="img-hero/symbol-defs.svg#icon-Burger"></use>
         </svg>
@@ -39,15 +39,18 @@
         </svg> -->
     </button>
 
-<button type="button" class="header-btn btn" data-modal-open>Buy now
-    <!-- <svg height="" width="">
-                <use href=""></use>
-            </svg> -->
+
+   
+
+<button type="button" class="header-btn btn">Buy now
+    <svg height="8" width="4">
+                <use href="img-hero/symbol-defs.svg#icon-Vector-1"></use>
+            </svg>
 </button>
 </div>
 
-<div class="menu-container" id="menu-container" data-menu>
-    <button type="button" class="menu-button" aria-expanded="false" aria-controls="menu-container" data-menu-button>
+<div class="menu-container js-menu-container" id="menu-container" >
+    <button type="button" class="menu-button js-close-menu" aria-expanded="false" aria-controls="menu-container" data-menu-button>
     
         <!-- <svg class="mobile__icon" width="20" height="12" aria-label="Переключатель мобильного меню">
             <use class="mobile__burger" href="img-hero/symbol-defs.svg#icon-Burger"></use>
@@ -56,34 +59,35 @@
             <use class="mobile__close" href="img-hero/symbol-defs.svg#icon-close"></use>
         </svg>
         </button>
-    <ul class="site-nav ">
-        <button data-modal-open-1 type="button" class="button__buy btn">Buy now
-            <!-- <svg height="" width="">
-                    <use href=""></use>
-                </svg> -->
+
+        <button type="button" class="button__buy btn js-close-menu">Buy now
+            <svg height="8" width="4">
+                <use href="img-hero/symbol-defs.svg#icon-Vector-1"></use>
+            </svg>
         </button>
+    <ul class="site-nav ">
+      
         <li class="site-nav__item">
-            <a class="site-nav__link site-nav__link--active" href="./index.html">Home</a>
+            <a class="site-nav__link site-nav__link--active js-close-menu" href="./index.html">Home</a>
         </li>
         <li class="site-nav__item">
-            <a class="site-nav__link" href="#advantages">About us</a>
+            <a class="site-nav__link js-close-menu" href="#advantages">About us</a>
         </li>
         <li class="site-nav__item">
-            <a class="site-nav__link" href="#about">How it’s made?</a>
+            <a class="site-nav__link js-close-menu" href="#about">How it’s made?</a>
         </li>
         <li class="site-nav__item">
-            <a class="site-nav__link" href="#products">Our products</a>
+            <a class="site-nav__link js-close-menu" href="#products">Our products</a>
         </li>
         <li class="site-nav__item">
-            <a class="site-nav__link" href="#contacts">Contact</a>
+            <a class="site-nav__link js-close-menu" href="#contacts">Contact</a>
         </li>
     </ul>
     
-    </button>
+</div>
 
         </nav>
 
-</div>
 
 
 
@@ -168,4 +172,4 @@
 
 </section>
 
-    <script src="./js/menu.js"></script>
+    
