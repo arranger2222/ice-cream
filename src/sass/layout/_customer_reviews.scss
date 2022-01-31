@@ -1,0 +1,187 @@
+.customer-reviews {
+  font-family: $content-font;
+  font-weight: 500;
+  font-size: 12px;
+  line-height: calc(30.6 / 12);
+  color: #000;
+  text-align: center;
+
+  @media screen and (min-width: 768px) {
+    font-size: 14px;
+    line-height: calc(30.24 / 14);
+    letter-spacing: 0.04em;
+  }
+  @media screen and (min-width: 1280px) {
+    font-size: 16px;
+    line-height: calc(29.76 / 16);
+  }
+
+  &__container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding-top: 80px;
+  }
+}
+
+.customer-img {
+  margin-bottom: 30px;
+  @media screen and (min-width: 768px) {
+    margin-bottom: 20px;
+  }
+  @media screen and (min-width: 1280px) {
+    margin-bottom: 15px;
+  }
+}
+
+.review-wrapper {
+  // outline: #c7133e 1px solid;
+  position: relative;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 43px 66px 26px 57px;
+  background-color: #fafafa;
+  width: 100%;
+  min-height: 308px;
+  margin-bottom: 52px;
+  @media screen and (min-width: 768px) {
+    max-width: 620px;
+    min-height: 164px;
+    padding: 47px 80px 34px 80px;
+    margin-bottom: 42px;
+  }
+  @media screen and (min-width: 1280px) {
+    max-width: 926px;
+    padding: 47px 80px 34px 80px;
+    min-height: 138px;
+    margin-bottom: 34px;
+  }
+}
+
+.review-wrapper::after {
+  content: '';
+  display: block;
+  position: absolute;
+  left: 60px;
+  top: 30px;
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: contain;
+  background-image: url(/sprites/quotes.svg);
+  width: 54px;
+  height: 40px;
+  z-index: 1;
+  @media screen and (min-width: 768px) {
+    left: 40px;
+    top: 30px;
+  }
+  @media screen and (min-width: 1280px) {
+    left: 50px;
+    top: 32px;
+  }
+}
+
+.text-wrap {
+  position: absolute;
+  width: 180px;
+  z-index: 10;
+  background-image: repeating-linear-gradient(
+    to bottom,
+    transparent,
+    transparent 29px,
+    #e1e1e1 29px,
+    #e1e1e1 30px
+  );
+  // outline: 1px solid blue;
+  @media screen and (min-width: 768px) {
+    width: 524px;
+  }
+  @media screen and (min-width: 1280px) {
+    width: 813px;
+
+    background-image: repeating-linear-gradient(
+      to bottom,
+      transparent,
+      transparent 26px,
+      #e1e1e1 29px,
+      #e1e1e1 17px
+    );
+  }
+}
+
+.review-text {
+  margin: 0 auto;
+  // outline: 1px solid green;
+  width: 157px;
+  @media screen and (min-width: 768px) {
+    width: 460px;
+  }
+  @media screen and (min-width: 1280px) {
+    width: 750px;
+  }
+}
+
+.about-customer {
+  display: inline-block;
+  font-size: 14px;
+  font-weight: 500;
+  line-height: calc(26.04 / 14);
+  text-align: center;
+  position: relative;
+  margin-bottom: 30px;
+  @media screen and (min-width: 768px) {
+    margin-bottom: 35px;
+  }
+}
+
+.about-customer::before {
+  content: '...';
+  color: #c7133e;
+  letter-spacing: 0.3em;
+  font-size: 2rem;
+  position: absolute;
+  top: -55px;
+  left: 52%;
+  transform: translate(-50%);
+  //   outline: 1px solid red;
+  @media screen and (min-width: 768px) {
+    top: -50px;
+    @media screen and (min-width: 1280px) {
+      top: -55px;
+    }
+  }
+}
+// ===================== SLIDER STYLES =========================
+
+.slick-dots {
+  display: flex;
+  justify-content: center;
+
+  & li:not(:last-child) {
+    margin-right: 18px;
+  }
+
+  & button {
+    font-size: 0;
+    display: block;
+    width: 12px;
+    height: 12px;
+    border-radius: 50%;
+    border: 1px #212121;
+    background-color: #d9d9d9;
+  }
+}
+
+.slick-active button {
+  border-radius: 0;
+  background-color: #fff;
+  background-image: url(/sprites/home.svg);
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: contain;
+}
+
+.slick-slide {
+  height: auto;
+}

@@ -4,16 +4,26 @@
  */
 // ================= COMMON STYLES ========================
 
-@import '../sass/utils/reset.scss';
 @import '../sass/utils/variables';
+@import '../sass/utils/reset.scss';
+@import '../sass/utils/reset';
 @import '../sass/utils/container';
-@import '../sass/utils/hidden';
+@import '../sass/utils/visually-hidden';
 @import '../sass/utils/breakpoints';
 @import '../sass/utils/mixins/respond';
 
 // ===================== LAYOUTS =============================
+
 @import '../sass/layout/header';
 @import '../sass/layout/hero';
-
 @import '../sass/components/header-btn';
+@import '../sass/components/top-btn';
 @import '../sass/components/menu';
+@import '../sass/layout/products';
+@import './layout/about';
+@import './layout/advantages';
+@import '../sass/layout/gallery';
+@import '../sass/layout/customer_reviews';
+@import '../sass/layout/contacts';
+@import '../sass/layout/footer';
+@import '../sass/layout/modal';

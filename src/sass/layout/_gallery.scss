@@ -1,0 +1,50 @@
+.gallery {
+  background-image: linear-gradient(
+    to bottom,
+    $secondary-brand-color 40%,
+    #ffffff 40%,
+    #ffffff 60%
+  ); 
+}
+
+
+
+
+.gallery__box {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+
+  
+}
+
+
+.elements-gride{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.elements-gride__icecreams{
+width: 285px;
+margin: 5px;
+}
+.elements-gride__icecream{
+  width: 140px;
+  margin: 5px;
+  }
+  .elements-gride__margin{
+    margin-top: 70%;
+    }
+
+  
+
+
+
+
+
+
+
+////Эфект
+.card{
+  transform-style: preserve-3d;
+}
