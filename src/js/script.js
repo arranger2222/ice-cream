@@ -3,7 +3,13 @@ $(document).ready(function(){
     arrows: false,
     dots: true,
     autoplay: true,
+    centerMode: false,
+    variableWidth: true,
+    slidesToShow: 1,
+    slidesToScroll: 1,
     centerMode: true,
-    variableWidth: true
+    mobileFirst: true,
+    centerPadding: '100px',
+    
   });
 });
