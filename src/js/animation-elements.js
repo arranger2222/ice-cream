@@ -35,8 +35,8 @@ VanillaTilt.init(card3s, {
     glare: true,
 });
 //Анимирование в about, advantages, contacts, products
-const card4s = document.querySelectorAll('.card4');
-VanillaTilt.init(card4s, {
+const s = document.querySelectorAll('.');
+VanillaTilt.init(s, {
     max: 9,
     glare: true,
     "max-glare": 0.5,      // maximum "glare" opacity (1 = 100%, 0.5 = 50%)
