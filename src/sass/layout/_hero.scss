@@ -4,13 +4,10 @@
 }
 
 .hero .container {
-  height: 446px;
+  // height: 446px;
   padding-top: 137px;
   padding-bottom: 160px;
   position: relative;
-  // @media screen and(max-width: 320px) {
-  overflow-x: hidden;
-  // }
 
   @media screen and(min-width: 768px) {
     height: 312px;
@@ -21,6 +18,12 @@
     height: 578px;
     padding-top: 84px;
     max-width: 1280px;
+  }
+}
+
+.hero-container {
+  @media screen and(max-width: 360px) {
+    overflow-x: hidden;
   }
 }
 .hero__title {
