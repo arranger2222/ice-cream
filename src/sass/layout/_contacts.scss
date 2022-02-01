@@ -1,6 +1,4 @@
-
 .contacts {
-  margin-top: 10px;
   padding-top: 86px;
   background-image: linear-gradient(
     to bottom,
@@ -41,15 +39,13 @@
   }
 }
 .contacts__list {
-  margin-bottom: 54px;
-
   @media screen and (min-width: 768px) {
     display: flex;
     flex-wrap: wrap;
-    margin: -10px -10px 71px;
+    margin: -10px;
   }
   @media screen and (min-width: 1280px) {
-    margin: -15px -15px 71px;
+    margin: -15px;
   }
 }
 .contacts__item {
@@ -246,10 +242,15 @@
 
 // Button в Contacts
 .contacts__btn-list {
+  margin-top: 54px;
   @media screen and (min-width: 768px) {
     display: flex;
     justify-content: center;
     align-items: center;
+    margin-top: 81px;
+  }
+  @media screen and (min-width: 1280px) {
+    margin-top: 86px;
   }
 }
 
