@@ -1,20 +1,26 @@
 .footer {
   background-color: $secondary-brand-color;
+  padding-top: 165px;
+
+  @media screen and(min-width: 768px) {
+    padding-top: 165px;
+  }
+
+  @media screen and(min-width: 1199px) {
+    padding-top: 113px;
+  }
 
   &__container-main {
-    padding-top: 165px;
-    padding-bottom: 43px;
+    margin-bottom: 43px;
 
     @media screen and(min-width: 768px) {
       display: flex;
       justify-content: space-between;
-      padding-top: 165px;
-      padding-bottom: 94px;
+      margin-bottom: 94px;
     }
 
     @media screen and(min-width: 1199px) {
-      padding-top: 113px;
-      padding-bottom: 97px;
+      margin-bottom: 97px;
     }
   }
 
