@@ -12,6 +12,7 @@
 @import '../sass/utils/breakpoints';
 @import '../sass/utils/mixins/respond';
 
+
 // ===================== LAYOUTS =============================
 
 @import '../sass/layout/header';
@@ -19,6 +20,7 @@
 @import '../sass/components/header-btn';
 @import '../sass/components/top-btn';
 @import '../sass/components/menu';
+@import '../sass/components/scrolled-animation';
 @import '../sass/layout/products';
 @import './layout/about';
 @import './layout/advantages';
