@@ -331,13 +331,16 @@
   height: 40px;
   border-radius: 50%;
   background-color: #ffffff;
+  transition: 250ms cubic-bezier(0.4, 0, 0.2, 1) background-color, fill;
 
-  &:hover {
+  &:hover,
+  &:focus {
     background-color: $main-font-color;
     cursor: pointer;
   }
 
-  &:hover .product-list__button-svg {
+  &:hover,
+  &:focus .product-list__button-svg {
     fill: #ffffff;
   }
 }
