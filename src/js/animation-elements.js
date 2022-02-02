@@ -35,7 +35,7 @@ VanillaTilt.init(card3s, {
     glare: true,
 });
 //Анимирование в about, advantages, contacts, products
-const s = document.querySelectorAll('.');
+// const s = document.querySelectorAll('.');
 VanillaTilt.init(s, {
     max: 9,
     glare: true,
