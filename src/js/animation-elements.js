@@ -36,17 +36,17 @@ VanillaTilt.init(card3s, {
 });
 //Анимирование в about, advantages, contacts, products
 // const s = document.querySelectorAll('.');
-VanillaTilt.init(s, {
-    max: 9,
-    glare: true,
-    "max-glare": 0.5,      // maximum "glare" opacity (1 = 100%, 0.5 = 50%)
-    scale:  1.1,  // Масштабирование
-    speed:  300,  // Скорость анимации в начале/в конце
-    easing:  "cubic-bezier(.03,.98,.52,.99)", 
-    gyroscope:  true,  // Нужен ли эффект при наклоне телефона/другого устройства
-    /* Максимальные и минимальные углы эффекта при наклоне устройства */
-    gyroscopeMinAngleX:  -45,
-    gyroscopeMaxAngleX:  45,
-    gyroscopeMinAngleY:  -45,
-    gyroscopeMaxAngleY:  45,
-});
+// VanillaTilt.init(s, {
+//     max: 9,
+//     glare: true,
+//     "max-glare": 0.5,      // maximum "glare" opacity (1 = 100%, 0.5 = 50%)
+//     scale:  1.1,  // Масштабирование
+//     speed:  300,  // Скорость анимации в начале/в конце
+//     easing:  "cubic-bezier(.03,.98,.52,.99)", 
+//     gyroscope:  true,  // Нужен ли эффект при наклоне телефона/другого устройства
+//     /* Максимальные и минимальные углы эффекта при наклоне устройства */
+//     gyroscopeMinAngleX:  -45,
+//     gyroscopeMaxAngleX:  45,
+//     gyroscopeMinAngleY:  -45,
+//     gyroscopeMaxAngleY:  45,
+// });
